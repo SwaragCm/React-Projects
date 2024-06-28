@@ -1,0 +1,40 @@
+/* Home.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background for the body */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    color: #333333; /* Dark gray text color */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  Link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  Link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
