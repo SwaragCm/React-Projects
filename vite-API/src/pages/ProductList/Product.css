@@ -1,0 +1,35 @@
+/* Product.css */
+
+.product-table-container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Adding borders to cells */
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+  
+  .product-table th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .product-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .product-table tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
